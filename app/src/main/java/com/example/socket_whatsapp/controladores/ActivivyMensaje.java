@@ -105,7 +105,7 @@ public class ActivivyMensaje extends AppCompatActivity {
         getWindow().setStatusBarColor(Color.parseColor("#000000"));
         getSupportActionBar().setBackgroundDrawable(new ColorDrawable(Color.parseColor("#000000")));
         getSupportActionBar().setTitle(Html.fromHtml("<font color='#F9031C'>Esperando MSG</font>"));
-        getSupportActionBar().setHomeAsUpIndicator(R.drawable.backbtn);
+        getSupportActionBar().setHomeAsUpIndicator(R.mipmap.backbtn);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getWindow().setNavigationBarColor(Color.parseColor("#000000"));
     }

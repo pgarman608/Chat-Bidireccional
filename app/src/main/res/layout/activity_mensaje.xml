@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/backgroundmensaje">
+    android:background="@mipmap/backgroundmensaje">
 
     <EditText
         android:id="@+id/txtMensaje"
@@ -33,7 +33,7 @@
         android:layout_height="wrap_content"
         android:background="@drawable/envbtn"
         android:backgroundTint="@color/black"
-        android:drawableStart="@drawable/enviar"
+        android:drawableStart="@mipmap/enviar"
         android:drawablePadding="0dp"
         android:paddingStart="8dp"
         android:paddingEnd="-120dp"
